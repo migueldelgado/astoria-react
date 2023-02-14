@@ -1,0 +1,31 @@
+.container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  bottom: 0;
+  width: 16rem;
+  background-color: #3c4b64;
+}
+
+.header {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 70%;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.footer {
+  height: 10rem;
+  width: 100%;
+}
